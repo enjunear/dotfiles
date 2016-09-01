@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Random wallpaper chooser
+# looks for images in the ~/Pictures/desktops folder
+path="/home/michael/Pictures/desktops"
+file=$(ls $path | shuf -n 1)
+feh --bg-scale $path/$file

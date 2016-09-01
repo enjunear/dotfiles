@@ -1,0 +1,3 @@
+#!/bin/bash
+# Syncthing starter
+/usr/bin/syncthing -no-browser -home="/home/michael/.config/syncthing"
